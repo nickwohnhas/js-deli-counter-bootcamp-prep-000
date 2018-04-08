@@ -18,7 +18,7 @@ function currentLine(line){
   if (line.length>0){
     for (var i = 1, i < line.length ,i++){
       var nameofperson = line[i]
-      
+      currentstr += i 
       
       
        } 
