@@ -15,8 +15,15 @@ function nowServing(katzDeliLine){
 }
 function currentLine(line){
   var currentstr = "The line is currently: "
+  var counter = 0
   if (line.length>0){
-      return "test"
+      var name = line[counter]
+      while (counter<line.length){
+        counter++
+        currentstr.push(`${counter}. ${name},`)
+      }
+  
+    return currenstr
   }
   
   else{
