@@ -26,7 +26,7 @@ function currentLine(line){
           currentstr.push(`${i}. ${nameofperson}`)
         }
       }
-       
+       return currentstr
     }
   else{
     return "The line is currently empty."
