@@ -23,7 +23,7 @@ function currentLine(line){
         currentstr += `${counter}. ${name},`
       }
   
-    return currenstr
+    return currentstr
   }
   
   else{
