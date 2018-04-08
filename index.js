@@ -19,7 +19,7 @@ function currentLine(line){
   for (var i = 0, i<line.length,i++){
       var nameofperson = line[i]
       if (i < line.length - 1){
-      currentstr.push(`${i}. ${nameofperson}`) += `, `
+      currentstr.push(`${i}. ${nameofperson}`)
        
         }
         else{
@@ -30,5 +30,5 @@ function currentLine(line){
     }
   else{
     return "The line is currently empty."
-  }
+  
 }  
