@@ -16,12 +16,14 @@ function nowServing(katzDeliLine){
 function currentLine(line){
   var currentstr = "The line is currently: "
   if (line.length>0){
-  for (var i = 0, i<line.length,i++){
+    for (var i = 0, i<line.length,i++){
       var nameofperson = line[i]
       if (i < line.length - 1){
       currentstr.push(`${i}. ${nameofperson},`)
-       
-        
+      }
+       else{
+         currentstr.push(`${i}. ${nameofperson}`)
+       } 
        
     }
   else{
