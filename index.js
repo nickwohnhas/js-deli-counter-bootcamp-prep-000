@@ -21,12 +21,8 @@ function currentLine(line){
       
       currentstr.push(`${i}. ${nameofperson},`)
       
-       
-         
-       
-         return currentstr
        } 
-       
+       return currentstr
     }
   
   else{
