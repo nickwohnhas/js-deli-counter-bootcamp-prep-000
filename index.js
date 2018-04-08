@@ -18,8 +18,8 @@ function currentLine(line){
   if (line.length>0){
   for (var i = 0, i<line.length,i++){
       var nameofperson = line[i]
-      if (i != line.length - 1){
-      currentstr.push(`${i}. ${nameofperson}`) += `, `)
+      if (i < line.length - 1){
+      currentstr.push(`${i}. ${nameofperson}`) += `, `
        
         }
         else{
