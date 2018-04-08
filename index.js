@@ -18,12 +18,12 @@ function currentLine(line){
   var counter = 0
   if (line.length>0){
       
-       while (counter<line.length){
+       while (counter<line.length - 1){
         var name = line[counter]
         counter++
         currentstr += `${counter}. ${name}, `
       }
-  
+    
     return currentstr
   }
   
