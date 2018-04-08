@@ -17,11 +17,10 @@ function currentLine(line){
   var currentstr = "The line is currently: "
   var counter = 0
   if (line.length>0){
-      counter++
       
-      while (counter<line.length){
+       while (counter<line.length){
         var name = line[counter]
-        
+        counter++
         currentstr += `${counter}. ${name}, `
       }
   
