@@ -20,7 +20,7 @@ function currentLine(line){
       while (counter<line.length){
         counter++
         var name = line[counter]
-        currentstr.push(`${counter}. ${name},`)
+        currentstr += `${counter}. ${name},`
       }
   
     return currenstr
