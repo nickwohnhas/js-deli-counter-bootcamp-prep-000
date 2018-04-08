@@ -23,6 +23,8 @@ function currentLine(line){
       }
        else{
          currentstr.push(`${i}. ${nameofperson}`)
+       
+         return currentstr
        } 
        
     }
