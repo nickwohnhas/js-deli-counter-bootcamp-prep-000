@@ -21,7 +21,7 @@ function currentLine(line){
       while (counter<line.length){
         counter++
         
-        currentstr += `${counter}. ${name},`
+        currentstr += `${counter}. ${name}, `
       }
   
     return currentstr
