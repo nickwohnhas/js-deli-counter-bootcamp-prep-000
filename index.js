@@ -23,7 +23,7 @@ function currentLine(line){
         counter++
         currentstr += `${counter}. ${name}, `
       }
-    currentstr += `${line.length}. ${line[line.length]}`
+    currentstr += `${line.length}. ${line[line.length - 1]}`
     return currentstr
   }
   
